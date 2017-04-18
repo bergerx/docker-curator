@@ -4,6 +4,7 @@ client:
     - {{ELASTICSEARCH_HOST}}
   port: {{ELASTICSEARCH_PORT}}
   master_only: {{MASTER_ONLY}}
+  http_auth: {{ELASTICSEARCH_HTTP_AUTH}}
   use_ssl: {{SSL}}
 
 logging:
