@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ARG CURATOR_VERSION=4.2.1
+ARG CURATOR_VERSION=5.0.1
 
 RUN \
   apk add --no-cache --update \
