@@ -1,3 +1,5 @@
+**forked from lukedemi/docker-curator and added HTTP AUTH for elasticsearch**
+
 ## Overview
 
 I had enough difficulty trying to run cron and Curator 4.X together in a Docker container that I decided to release something for people to either run themselves or use as a jumping off point for their own implementation.
