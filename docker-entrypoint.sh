@@ -61,6 +61,7 @@ fi
 cat /templates/config.yml |
 sed 's/{{ELASTICSEARCH_HOST}}/'"${ELASTICSEARCH_HOST:-localhost}"'/g' |
 sed 's/{{ELASTICSEARCH_PORT}}/'"${ELASTICSEARCH_PORT:-9200}"'/g' |
+sed 's/{{ELASTICSEARCH_HTTP_AUTH}}/'"${:-elastic:changeme}"'/g' |
 sed 's/{{MASTER_ONLY}}/'"${MASTER_ONLY:-False}"'/g' |
 sed 's/{{SSL}}/'"${SSL:-False}"'/g' |
 cat > /config/config.yml
